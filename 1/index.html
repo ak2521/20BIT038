@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form method ="post" action="http://104.211.219.98/train/register">
+            <h1>Register The Company</h1>
+            
+                    <label>Company Name :</label>
+                    <input type="text" name="companyName"/>
+                <br>
+            <label>Owner Name:</label>
+                    <input type="text" name="ownerName"/>
+                <br>
+            <label>Roll Number:</label>
+                    <input type="text" name="rollNo"/>
+                <br>
+            <label>Owner E-Mail:</label>
+                    <input type="text" name="ownerEmail"/>
+                <br>
+            <label>Access Code :</label>
+                    <input type="text" name="accessCode"/>
+                <br>
+            <button type="submit">Submit</button>
+        </form>
+        
+        <form method ="post" action="http://104.211.219.98/train/auth">
+            <h1>Authorization</h1>
+            
+                    <label>Company Name :</label>
+                    <input type="text" name="companyName" required/>
+                <br>
+            <label>Owner Name:</label>
+                    <input type="text" name="ownerName"/>
+            <br>
+            <label>Owner Name:</label>
+                    <input type="text" name="clientID"/>
+                <br>
+            <label>Roll Number:</label>
+                    <input type="text" name="rollNo"/>
+                <br>
+            <label>Owner E-Mail:</label>
+                    <input type="text" name="ownerEmail"/>
+                <br>
+            <label>Client Secret :</label>
+                    <input type="text" name="clientSecret"/>
+                <br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

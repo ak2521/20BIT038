@@ -1,0 +1,17 @@
+//step1
+{
+    "companyName": "Train Central",
+    "clientID": "daa2f6a3-7110-4605-bbb2-f4ee65ed8973",
+    "clientSecret": "CuTuRpLKzzuuFjTK",
+    "ownerName": "Ajay",
+    "ownerEmail": "ajay@abc.edu",
+    "rollNo": "38"
+}
+
+//step2 
+
+{
+    "token_type": "Bearer",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODg1NDM0MTEsImNvbXBhbnlOYW1lIjoiVHJhaW4gQ2VudHJhbCIsImNsaWVudElEIjoiZGFhMmY2YTMtNzExMC00NjA1LWJiYjItZjRlZTY1ZWQ4OTczIiwib3duZXJOYW1lIjoiIiwib3duZXJFbWFpbCI6IiIsInJvbGxObyI6IjM4In0.mXF7enNl8FjIXcFNcYNjeAEwoP5o1Zgwux9buKuLEic",
+    "expires_in": 1688543411
+}
